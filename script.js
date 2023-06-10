@@ -2,7 +2,6 @@ const extendHex = (shortHex) => {
   // write your code here
 	  shortHex = shortHex.replace('#', '');
 
-  // Split the hex code into three color components
   let r = shortHex[0];
   let g = shortHex[1];
   let b = shortHex[2];
